@@ -1,0 +1,31 @@
+# Core Dependencies for REALESTATE-ASSISTANT
+# Minimal requirements needed for the project to run
+
+# Environment and Configuration
+python-dotenv==1.2.1
+
+# LangChain Core
+langchain==1.2.10
+langchain-core==1.2.13
+langchain-community==0.4.1
+langchain-text-splitters==1.1.0
+
+# LangChain Integrations
+langchain-groq==1.1.2
+langchain-chroma==1.1.0
+langchain-huggingface==1.2.0
+
+# Vector Store
+chromadb==1.5.0
+
+# LLM Provider
+groq==0.37.1
+
+# Embeddings
+sentence-transformers==5.2.3
+
+# Web Interface
+streamlit==1.54.0
+
+# Document Processing
+unstructured==0.20.2
